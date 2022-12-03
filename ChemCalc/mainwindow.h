@@ -17,6 +17,25 @@ public:
 
     void problemProperties ();
 
+    void hideMoreParams();
+
+private slots:
+    void on_problemSt_activated(int index);
+
+    void on_equationSt_activated(int index);
+
+    void valumeCase();
+
+    void temperatureCase();
+
+    void pressureCase();
+
+    void on_inputParam1_returnPressed();
+
+    void on_inputParam2_returnPressed();
+
+    void on_inputMu_returnPressed();
+
 private:
     Ui::MainWindow *ui;
 };
