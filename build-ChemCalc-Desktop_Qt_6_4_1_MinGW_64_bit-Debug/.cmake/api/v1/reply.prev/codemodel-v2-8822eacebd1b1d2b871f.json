@@ -1,0 +1,150 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"childIndexes" : 
+					[
+						1
+					],
+					"hasInstallRule" : true,
+					"jsonFile" : "directory-.-Debug-35a44085ad24d92837c4.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.16"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"build" : "ChemLib",
+					"childIndexes" : 
+					[
+						2,
+						3
+					],
+					"jsonFile" : "directory-ChemLib-Debug-19ebd38dea599f31bbf2.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 0,
+					"projectIndex" : 1,
+					"source" : "ChemLib",
+					"targetIndexes" : 
+					[
+						0
+					]
+				},
+				{
+					"build" : "ChemLib/inc",
+					"jsonFile" : "directory-ChemLib.inc-Debug-fb01668edad183429919.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "ChemLib/inc"
+				},
+				{
+					"build" : "ChemLib/src",
+					"jsonFile" : "directory-ChemLib.src-Debug-603ed2d60600df057646.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.23"
+					},
+					"parentIndex" : 1,
+					"projectIndex" : 1,
+					"source" : "ChemLib/src"
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"childIndexes" : 
+					[
+						1
+					],
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "ChemCalc",
+					"targetIndexes" : 
+					[
+						1,
+						2,
+						3
+					]
+				},
+				{
+					"directoryIndexes" : 
+					[
+						1,
+						2,
+						3
+					],
+					"name" : "CHEMLIB",
+					"parentIndex" : 0,
+					"targetIndexes" : 
+					[
+						0
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 1,
+					"id" : "CHEMLIB::@35e9853ab5625f09128a",
+					"jsonFile" : "target-CHEMLIB-Debug-79eb5b7b448a0785e788.json",
+					"name" : "CHEMLIB",
+					"projectIndex" : 1
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChemCalc::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChemCalc-Debug-b9086a64376a9ee7c495.json",
+					"name" : "ChemCalc",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChemCalc_autogen::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChemCalc_autogen-Debug-c28b1180b444f26d2bb1.json",
+					"name" : "ChemCalc_autogen",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ChemCalc_autogen_timestamp_deps::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ChemCalc_autogen_timestamp_deps-Debug-257b2d28e28fd502cfca.json",
+					"name" : "ChemCalc_autogen_timestamp_deps",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+		"source" : "C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 4
+	}
+}

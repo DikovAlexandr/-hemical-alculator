@@ -1,0 +1,7 @@
+set(CHEMLIB_SOURCES
+	${CMAKE_CURRENT_SOURCE_DIR}/PressureSolver.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/TemperatureSolver.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/VolumeSolver.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/SolverC.cpp
+	PARENT_SCOPE
+)

@@ -26,7 +26,7 @@ QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 namespace {
 struct qt_meta_stringdata_MainWindow_t {
-    uint offsetsAndSizes[22];
+    uint offsetsAndSizes[28];
     char stringdata0[11];
     char stringdata1[23];
     char stringdata2[1];
@@ -38,6 +38,9 @@ struct qt_meta_stringdata_MainWindow_t {
     char stringdata8[29];
     char stringdata9[29];
     char stringdata10[25];
+    char stringdata11[17];
+    char stringdata12[24];
+    char stringdata13[24];
 };
 #define QT_MOC_LITERAL(ofs, len) \
     uint(sizeof(qt_meta_stringdata_MainWindow_t::offsetsAndSizes) + ofs), len 
@@ -53,7 +56,10 @@ Q_CONSTINIT static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_Main
         QT_MOC_LITERAL(92, 12),  // "pressureCase"
         QT_MOC_LITERAL(105, 28),  // "on_inputParam1_returnPressed"
         QT_MOC_LITERAL(134, 28),  // "on_inputParam2_returnPressed"
-        QT_MOC_LITERAL(163, 24)   // "on_inputMu_returnPressed"
+        QT_MOC_LITERAL(163, 24),  // "on_inputMu_returnPressed"
+        QT_MOC_LITERAL(188, 16),  // "on_start_clicked"
+        QT_MOC_LITERAL(205, 23),  // "on_aParam_returnPressed"
+        QT_MOC_LITERAL(229, 23)   // "on_bParam_returnPressed"
     },
     "MainWindow",
     "on_problemSt_activated",
@@ -65,7 +71,10 @@ Q_CONSTINIT static const qt_meta_stringdata_MainWindow_t qt_meta_stringdata_Main
     "pressureCase",
     "on_inputParam1_returnPressed",
     "on_inputParam2_returnPressed",
-    "on_inputMu_returnPressed"
+    "on_inputMu_returnPressed",
+    "on_start_clicked",
+    "on_aParam_returnPressed",
+    "on_bParam_returnPressed"
 };
 #undef QT_MOC_LITERAL
 } // unnamed namespace
@@ -76,7 +85,7 @@ Q_CONSTINIT static const uint qt_meta_data_MainWindow[] = {
       10,       // revision
        0,       // classname
        0,    0, // classinfo
-       8,   14, // methods
+      11,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -84,18 +93,24 @@ Q_CONSTINIT static const uint qt_meta_data_MainWindow[] = {
        0,       // signalCount
 
  // slots: name, argc, parameters, tag, flags, initial metatype offsets
-       1,    1,   62,    2, 0x08,    1 /* Private */,
-       4,    1,   65,    2, 0x08,    3 /* Private */,
-       5,    0,   68,    2, 0x08,    5 /* Private */,
-       6,    0,   69,    2, 0x08,    6 /* Private */,
-       7,    0,   70,    2, 0x08,    7 /* Private */,
-       8,    0,   71,    2, 0x08,    8 /* Private */,
-       9,    0,   72,    2, 0x08,    9 /* Private */,
-      10,    0,   73,    2, 0x08,   10 /* Private */,
+       1,    1,   80,    2, 0x08,    1 /* Private */,
+       4,    1,   83,    2, 0x08,    3 /* Private */,
+       5,    0,   86,    2, 0x08,    5 /* Private */,
+       6,    0,   87,    2, 0x08,    6 /* Private */,
+       7,    0,   88,    2, 0x08,    7 /* Private */,
+       8,    0,   89,    2, 0x08,    8 /* Private */,
+       9,    0,   90,    2, 0x08,    9 /* Private */,
+      10,    0,   91,    2, 0x08,   10 /* Private */,
+      11,    0,   92,    2, 0x08,   11 /* Private */,
+      12,    0,   93,    2, 0x08,   12 /* Private */,
+      13,    0,   94,    2, 0x08,   13 /* Private */,
 
  // slots: parameters
     QMetaType::Void, QMetaType::Int,    3,
     QMetaType::Void, QMetaType::Int,    3,
+    QMetaType::Void,
+    QMetaType::Void,
+    QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
@@ -132,6 +147,12 @@ Q_CONSTINIT const QMetaObject MainWindow::staticMetaObject = { {
         // method 'on_inputParam2_returnPressed'
         QtPrivate::TypeAndForceComplete<void, std::false_type>,
         // method 'on_inputMu_returnPressed'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_start_clicked'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_aParam_returnPressed'
+        QtPrivate::TypeAndForceComplete<void, std::false_type>,
+        // method 'on_bParam_returnPressed'
         QtPrivate::TypeAndForceComplete<void, std::false_type>
     >,
     nullptr
@@ -151,6 +172,9 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 5: _t->on_inputParam1_returnPressed(); break;
         case 6: _t->on_inputParam2_returnPressed(); break;
         case 7: _t->on_inputMu_returnPressed(); break;
+        case 8: _t->on_start_clicked(); break;
+        case 9: _t->on_aParam_returnPressed(); break;
+        case 10: _t->on_bParam_returnPressed(); break;
         default: ;
         }
     }
@@ -175,13 +199,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 8)
+        if (_id < 11)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 8;
+        _id -= 11;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 8)
+        if (_id < 11)
             *reinterpret_cast<QMetaType *>(_a[0]) = QMetaType();
-        _id -= 8;
+        _id -= 11;
     }
     return _id;
 }

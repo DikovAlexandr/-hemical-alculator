@@ -2,6 +2,7 @@
 #include <iostream>
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
+#include "ChemLib/inc/ChemLib.hpp"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)
@@ -25,15 +26,15 @@ void MainWindow::on_problemSt_activated(int index){
     switch(index){
             case 0:
                 valumeCase();
-                //SolverType type = VOLUME_SOLVER;
+                type = VOLUME_SOLVER;
                 break;
             case 1:
                 temperatureCase();
-                //SolverType type = TEMPERATURE_SOLVER;
+                type = TEMPERATURE_SOLVER;
                 break;
             case 2:
                 pressureCase();
-                //SolverType type = PRESSURE_SOLVER;
+                type = PRESSURE_SOLVER;
                 break;
             default:
                 break;
@@ -70,6 +71,8 @@ void MainWindow::hideMoreParams(){
 void MainWindow::on_equationSt_activated(int index){
     if (index == 1 || index == 2) {
         ui->paramsWidget->show();
+        on_aParam_returnPressed();
+        on_bParam_returnPressed();
     }
     else ui->paramsWidget->hide();
 }
@@ -98,5 +101,27 @@ void MainWindow::on_inputMu_returnPressed()
     mu = ui->inputMu->text().toDouble();
     ctx[2] = mu;
     //qDebug() << mu;
+}
+
+
+void MainWindow::on_start_clicked()
+{
+    //
+}
+
+
+void MainWindow::on_aParam_returnPressed()
+{
+    double a;
+    a = ui->inputMu->text().toDouble();
+    ctx[3] = a;
+}
+
+
+void MainWindow::on_bParam_returnPressed()
+{
+    double b;
+    b = ui->inputMu->text().toDouble();
+    ctx[4] = b;
 }
 

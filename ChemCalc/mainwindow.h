@@ -2,6 +2,7 @@
 
 #include <QMainWindow>
 #include <vector>
+#include "ChemLib/inc/ChemLib.hpp"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -20,7 +21,9 @@ public:
 
     void hideMoreParams();
 
-    double ctx[3];
+    SolverType type;
+
+    std::vector<double> ctx{5};
 
 private slots:
     void on_problemSt_activated(int index);
@@ -39,6 +42,13 @@ private slots:
 
     void on_inputMu_returnPressed();
 
+    void on_start_clicked();
+
+    void on_aParam_returnPressed();
+
+    void on_bParam_returnPressed();
+
 private:
+
     Ui::MainWindow *ui;
 };

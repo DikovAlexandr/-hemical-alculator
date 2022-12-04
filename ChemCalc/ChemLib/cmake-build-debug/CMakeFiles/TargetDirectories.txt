@@ -1,0 +1,7 @@
+C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/cmake-build-debug/CMakeFiles/ChemLib.dir
+C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/cmake-build-debug/CMakeFiles/rebuild_cache.dir
+C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/cmake-build-debug/inc/CMakeFiles/edit_cache.dir
+C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/cmake-build-debug/inc/CMakeFiles/rebuild_cache.dir
+C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/cmake-build-debug/src/CMakeFiles/edit_cache.dir
+C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/cmake-build-debug/src/CMakeFiles/rebuild_cache.dir

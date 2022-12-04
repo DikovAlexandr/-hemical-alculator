@@ -153,6 +153,7 @@ C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_Min
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/hash_bytes.h \
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/invoke.h \
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/ios_base.h \
+  C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/istream.tcc \
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/iterator_concepts.h \
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/list.tcc \
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/bits/locale_classes.h \
@@ -243,6 +244,8 @@ C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_Min
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/initializer_list \
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/ios \
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iosfwd \
+  C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iostream \
+  C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/istream \
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/iterator \
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/limits \
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/list \
@@ -262,6 +265,7 @@ C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_Min
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/streambuf \
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string \
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/string_view \
+  C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/thread \
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/bessel_function.tcc \
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/beta_function.tcc \
   C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/tr1/ell_integral.tcc \
@@ -330,4 +334,9 @@ C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_Min
   C:/Users/dsash/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/time.h \
   C:/Users/dsash/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Users/dsash/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
-  C:/Users/dsash/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h
+  C:/Users/dsash/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/ChemLib.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/PressureSolver.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/SolverC.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/TemperatureSolver.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/VolumeSolver.hpp
