@@ -44,6 +44,10 @@ endif()
 
 target_link_libraries(ChemCalc PRIVATE Qt${QT_VERSION_MAJOR}::Widgets)
 
+#set(CMAKE_CXX_FLAGS "-L /absolute/path/to/libchem.a")
+#set(CMAKE_EXE_LINKER_FLAGS "${CMAKE_EXE_LINKER_FLAGS} -LC/Users/dsash/Repository/ChemicalCalculator/lib")
+#target_link_libraries(ChemCalc PUBLIC LIBCHEM)
+
 set_target_properties(ChemCalc PROPERTIES
     MACOSX_BUNDLE_GUI_IDENTIFIER my.example.com
     MACOSX_BUNDLE_BUNDLE_VERSION ${PROJECT_VERSION}

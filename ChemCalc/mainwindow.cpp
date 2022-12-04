@@ -79,6 +79,7 @@ void MainWindow::on_inputParam1_returnPressed()
 {
     double param1;
     param1 = ui->inputParam1->text().toDouble();
+    ctx[0] = param1;
     //qDebug() << param1;
 }
 
@@ -86,6 +87,7 @@ void MainWindow::on_inputParam2_returnPressed()
 {
     double param2;
     param2 = ui->inputParam2->text().toDouble();
+    ctx[1] = param2;
     //qDebug() << param2;
 }
 
@@ -94,6 +96,7 @@ void MainWindow::on_inputMu_returnPressed()
 {
     double mu;
     mu = ui->inputMu->text().toDouble();
+    ctx[2] = mu;
     //qDebug() << mu;
 }
 

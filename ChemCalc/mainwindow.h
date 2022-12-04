@@ -1,6 +1,7 @@
 #pragma ones
 
 #include <QMainWindow>
+#include <vector>
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }
@@ -18,6 +19,8 @@ public:
     void problemProperties ();
 
     void hideMoreParams();
+
+    double ctx[3];
 
 private slots:
     void on_problemSt_activated(int index);
