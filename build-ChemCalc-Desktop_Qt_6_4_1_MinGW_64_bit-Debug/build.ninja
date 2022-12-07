@@ -53,7 +53,7 @@ build CMakeFiles/ChemCalc.dir/ChemCalc_autogen/mocs_compilation.cpp.obj: CXX_COM
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\ChemCalc.dir\ChemCalc_autogen\mocs_compilation.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
-  INCLUDES = -IC:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ChemCalc_autogen/include -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtCore -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/mkspecs/win32-g++ -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtWidgets -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ChemCalc_autogen/include -IC:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/CHEMLIB_INC_PATH -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtCore -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/mkspecs/win32-g++ -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtWidgets -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\ChemCalc.dir
   OBJECT_FILE_DIR = CMakeFiles\ChemCalc.dir\ChemCalc_autogen
 
@@ -61,7 +61,7 @@ build CMakeFiles/ChemCalc.dir/main.cpp.obj: CXX_COMPILER__ChemCalc_Debug C$:/Use
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\ChemCalc.dir\main.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
-  INCLUDES = -IC:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ChemCalc_autogen/include -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtCore -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/mkspecs/win32-g++ -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtWidgets -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ChemCalc_autogen/include -IC:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/CHEMLIB_INC_PATH -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtCore -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/mkspecs/win32-g++ -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtWidgets -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\ChemCalc.dir
   OBJECT_FILE_DIR = CMakeFiles\ChemCalc.dir
 
@@ -69,7 +69,7 @@ build CMakeFiles/ChemCalc.dir/mainwindow.cpp.obj: CXX_COMPILER__ChemCalc_Debug C
   DEFINES = -DMINGW_HAS_SECURE_API=1 -DQT_CORE_LIB -DQT_GUI_LIB -DQT_NEEDS_QMAIN -DQT_WIDGETS_LIB -DUNICODE -DWIN32 -DWIN64 -D_ENABLE_EXTENDED_ALIGNED_STORAGE -D_UNICODE -D_WIN64
   DEP_FILE = CMakeFiles\ChemCalc.dir\mainwindow.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
-  INCLUDES = -IC:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ChemCalc_autogen/include -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtCore -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/mkspecs/win32-g++ -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtWidgets -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtGui
+  INCLUDES = -IC:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ChemCalc_autogen/include -IC:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/CHEMLIB_INC_PATH -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtCore -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/mkspecs/win32-g++ -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtWidgets -isystem C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtGui
   OBJECT_DIR = CMakeFiles\ChemCalc.dir
   OBJECT_FILE_DIR = CMakeFiles\ChemCalc.dir
 
@@ -184,7 +184,7 @@ build ChemCalc_autogen/timestamp ChemCalc_autogen/mocs_compilation.cpp | ${cmake
 #############################################
 # Phony custom command for CMakeFiles\ChemCalc_autogen_timestamp_deps
 
-build CMakeFiles/ChemCalc_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/ChemCalc_autogen_timestamp_deps: phony C$:/Users/dsash/Qt/6.4.1/mingw_64/./bin/uic.exe C$:/Users/dsash/Qt/6.4.1/mingw_64/./bin/moc.exe C$:/Users/dsash/Qt/6.4.1/mingw_64/lib/libQt6Core.a C$:/Users/dsash/Qt/6.4.1/mingw_64/lib/libQt6Widgets.a
+build CMakeFiles/ChemCalc_autogen_timestamp_deps | ${cmake_ninja_workdir}CMakeFiles/ChemCalc_autogen_timestamp_deps: phony C$:/Users/dsash/Qt/6.4.1/mingw_64/./bin/uic.exe C$:/Users/dsash/Qt/6.4.1/mingw_64/./bin/moc.exe C$:/Users/dsash/Qt/6.4.1/mingw_64/lib/libQt6Widgets.a C$:/Users/dsash/Qt/6.4.1/mingw_64/lib/libQt6Core.a
 
 
 #############################################
@@ -210,7 +210,7 @@ build ChemLib/CMakeFiles/ChemLib.dir/src/PressureSolver.cpp.obj: CXX_COMPILER__C
   DEFINES = -DChemLib_EXPORTS
   DEP_FILE = ChemLib\CMakeFiles\ChemLib.dir\src\PressureSolver.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
-  INCLUDES = -IC:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc
+  INCLUDES = -IC:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/CHEMLIB_INC_PATH -IC:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc
   OBJECT_DIR = ChemLib\CMakeFiles\ChemLib.dir
   OBJECT_FILE_DIR = ChemLib\CMakeFiles\ChemLib.dir\src
 
@@ -218,7 +218,7 @@ build ChemLib/CMakeFiles/ChemLib.dir/src/TemperatureSolver.cpp.obj: CXX_COMPILER
   DEFINES = -DChemLib_EXPORTS
   DEP_FILE = ChemLib\CMakeFiles\ChemLib.dir\src\TemperatureSolver.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
-  INCLUDES = -IC:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc
+  INCLUDES = -IC:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/CHEMLIB_INC_PATH -IC:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc
   OBJECT_DIR = ChemLib\CMakeFiles\ChemLib.dir
   OBJECT_FILE_DIR = ChemLib\CMakeFiles\ChemLib.dir\src
 
@@ -226,7 +226,7 @@ build ChemLib/CMakeFiles/ChemLib.dir/src/VolumeSolver.cpp.obj: CXX_COMPILER__Che
   DEFINES = -DChemLib_EXPORTS
   DEP_FILE = ChemLib\CMakeFiles\ChemLib.dir\src\VolumeSolver.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
-  INCLUDES = -IC:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc
+  INCLUDES = -IC:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/CHEMLIB_INC_PATH -IC:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc
   OBJECT_DIR = ChemLib\CMakeFiles\ChemLib.dir
   OBJECT_FILE_DIR = ChemLib\CMakeFiles\ChemLib.dir\src
 
@@ -234,7 +234,7 @@ build ChemLib/CMakeFiles/ChemLib.dir/src/SolverC.cpp.obj: CXX_COMPILER__ChemLib_
   DEFINES = -DChemLib_EXPORTS
   DEP_FILE = ChemLib\CMakeFiles\ChemLib.dir\src\SolverC.cpp.obj.d
   FLAGS = -DQT_QML_DEBUG -g -std=gnu++17
-  INCLUDES = -IC:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc
+  INCLUDES = -IC:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/CHEMLIB_INC_PATH -IC:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc
   OBJECT_DIR = ChemLib\CMakeFiles\ChemLib.dir
   OBJECT_FILE_DIR = ChemLib\CMakeFiles\ChemLib.dir\src
 

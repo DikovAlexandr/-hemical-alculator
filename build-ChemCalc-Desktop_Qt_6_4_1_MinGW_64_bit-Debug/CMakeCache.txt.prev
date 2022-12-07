@@ -325,6 +325,15 @@ ChemCalc_IS_TOP_LEVEL:STATIC=ON
 //Value Computed by CMake
 ChemCalc_SOURCE_DIR:STATIC=C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc
 
+//Value Computed by CMake
+ChemLib_BINARY_DIR:STATIC=C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ChemLib
+
+//Value Computed by CMake
+ChemLib_IS_TOP_LEVEL:STATIC=OFF
+
+//Value Computed by CMake
+ChemLib_SOURCE_DIR:STATIC=C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib
+
 //Path to a library.
 LIBCHEM:FILEPATH=LIBCHEM-NOTFOUND
 

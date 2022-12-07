@@ -285,6 +285,7 @@
 	],
 	"MOC_INCLUDES" : 
 	[
+		"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/CHEMLIB_INC_PATH",
 		"C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtCore",
 		"C:/Users/dsash/Qt/6.4.1/mingw_64/include",
 		"C:/Users/dsash/Qt/6.4.1/mingw_64/mkspecs/win32-g++",

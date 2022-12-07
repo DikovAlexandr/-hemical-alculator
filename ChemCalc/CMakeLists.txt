@@ -11,6 +11,7 @@ set(CMAKE_CXX_STANDARD_REQUIRED ON)
 
 #####################################
 
+include_directories(CHEMLIB_INC_PATH)
 add_subdirectory(CHEMLIB)
 
 #####################################

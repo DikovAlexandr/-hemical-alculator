@@ -11,7 +11,7 @@
 						1
 					],
 					"hasInstallRule" : true,
-					"jsonFile" : "directory-.-Debug-35a44085ad24d92837c4.json",
+					"jsonFile" : "directory-.-Debug-e816924baebcb9f7902c.json",
 					"minimumCMakeVersion" : 
 					{
 						"string" : "3.16"
@@ -20,9 +20,9 @@
 					"source" : ".",
 					"targetIndexes" : 
 					[
+						0,
 						1,
-						2,
-						3
+						2
 					]
 				},
 				{
@@ -42,7 +42,7 @@
 					"source" : "ChemLib",
 					"targetIndexes" : 
 					[
-						0
+						3
 					]
 				},
 				{
@@ -83,9 +83,9 @@
 					"name" : "ChemCalc",
 					"targetIndexes" : 
 					[
+						0,
 						1,
-						2,
-						3
+						2
 					]
 				},
 				{
@@ -95,27 +95,20 @@
 						2,
 						3
 					],
-					"name" : "CHEMLIB",
+					"name" : "ChemLib",
 					"parentIndex" : 0,
 					"targetIndexes" : 
 					[
-						0
+						3
 					]
 				}
 			],
 			"targets" : 
 			[
 				{
-					"directoryIndex" : 1,
-					"id" : "CHEMLIB::@35e9853ab5625f09128a",
-					"jsonFile" : "target-CHEMLIB-Debug-79eb5b7b448a0785e788.json",
-					"name" : "CHEMLIB",
-					"projectIndex" : 1
-				},
-				{
 					"directoryIndex" : 0,
 					"id" : "ChemCalc::@6890427a1f51a3e7e1df",
-					"jsonFile" : "target-ChemCalc-Debug-b9086a64376a9ee7c495.json",
+					"jsonFile" : "target-ChemCalc-Debug-ad0f11bdf348e6a2ac02.json",
 					"name" : "ChemCalc",
 					"projectIndex" : 0
 				},
@@ -132,6 +125,13 @@
 					"jsonFile" : "target-ChemCalc_autogen_timestamp_deps-Debug-257b2d28e28fd502cfca.json",
 					"name" : "ChemCalc_autogen_timestamp_deps",
 					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 1,
+					"id" : "ChemLib::@35e9853ab5625f09128a",
+					"jsonFile" : "target-ChemLib-Debug-2b80989d64b8c505de0f.json",
+					"name" : "ChemLib",
+					"projectIndex" : 1
 				}
 			]
 		}

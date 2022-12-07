@@ -2,13 +2,13 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "ChemLib/libCHEMLIB.dll"
+			"path" : "ChemLib/libChemLib.dll"
 		},
 		{
-			"path" : "ChemLib/libCHEMLIB.dll.a"
+			"path" : "ChemLib/libChemLib.dll.a"
 		},
 		{
-			"path" : "ChemLib/libCHEMLIB.pdb"
+			"path" : "ChemLib/libChemLib.pdb"
 		}
 	],
 	"backtrace" : 1,
@@ -21,7 +21,8 @@
 		],
 		"files" : 
 		[
-			"ChemLib/CMakeLists.txt"
+			"ChemLib/CMakeLists.txt",
+			"CMakeLists.txt"
 		],
 		"nodes" : 
 		[
@@ -33,6 +34,15 @@
 				"file" : 0,
 				"line" : 21,
 				"parent" : 0
+			},
+			{
+				"file" : 1
+			},
+			{
+				"command" : 1,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 2
 			},
 			{
 				"command" : 1,
@@ -57,13 +67,17 @@
 			"defines" : 
 			[
 				{
-					"define" : "CHEMLIB_EXPORTS"
+					"define" : "ChemLib_EXPORTS"
 				}
 			],
 			"includes" : 
 			[
 				{
-					"backtrace" : 2,
+					"backtrace" : 3,
+					"path" : "C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/CHEMLIB_INC_PATH"
+				},
+				{
+					"backtrace" : 4,
 					"path" : "C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc"
 				}
 			],
@@ -85,7 +99,7 @@
 			]
 		}
 	],
-	"id" : "CHEMLIB::@35e9853ab5625f09128a",
+	"id" : "ChemLib::@35e9853ab5625f09128a",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -101,8 +115,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "CHEMLIB",
-	"nameOnDisk" : "libCHEMLIB.dll",
+	"name" : "ChemLib",
+	"nameOnDisk" : "libChemLib.dll",
 	"paths" : 
 	{
 		"build" : "ChemLib",

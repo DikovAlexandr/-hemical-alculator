@@ -1,4 +1,4 @@
-#pragma ones
+#pragma once
 #include "SolverC.hpp"
 #include "VolumeSolver.hpp"
 #include "TemperatureSolver.hpp"

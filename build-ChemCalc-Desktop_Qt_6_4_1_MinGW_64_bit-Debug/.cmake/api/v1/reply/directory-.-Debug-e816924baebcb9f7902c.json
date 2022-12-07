@@ -17,7 +17,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 65,
+				"line" : 66,
 				"parent" : 0
 			}
 		]
@@ -33,7 +33,7 @@
 				"ChemCalc.exe"
 			],
 			"targetId" : "ChemCalc::@6890427a1f51a3e7e1df",
-			"targetIndex" : 1,
+			"targetIndex" : 0,
 			"type" : "target"
 		}
 	],

@@ -23,7 +23,8 @@
 			"include",
 			"find_package",
 			"find_dependency",
-			"_qt_internal_find_qt_dependencies"
+			"_qt_internal_find_qt_dependencies",
+			"include_directories"
 		],
 		"files" : 
 		[
@@ -51,7 +52,7 @@
 			{
 				"command" : 3,
 				"file" : 1,
-				"line" : 29,
+				"line" : 30,
 				"parent" : 0
 			},
 			{
@@ -75,19 +76,19 @@
 			{
 				"command" : 4,
 				"file" : 1,
-				"line" : 65,
+				"line" : 66,
 				"parent" : 0
 			},
 			{
 				"command" : 5,
 				"file" : 1,
-				"line" : 51,
+				"line" : 52,
 				"parent" : 0
 			},
 			{
 				"command" : 8,
 				"file" : 1,
-				"line" : 19,
+				"line" : 20,
 				"parent" : 0
 			},
 			{
@@ -259,6 +260,12 @@
 				"file" : 13,
 				"line" : 56,
 				"parent" : 38
+			},
+			{
+				"command" : 11,
+				"file" : 1,
+				"line" : 14,
+				"parent" : 0
 			}
 		]
 	},
@@ -328,6 +335,10 @@
 					"path" : "C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ChemCalc_autogen/include"
 				},
 				{
+					"backtrace" : 40,
+					"path" : "C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/CHEMLIB_INC_PATH"
+				},
+				{
 					"backtrace" : 14,
 					"isSystem" : true,
 					"path" : "C:/Users/dsash/Qt/6.4.1/mingw_64/include/QtCore"
@@ -374,11 +385,11 @@
 	"dependencies" : 
 	[
 		{
-			"backtrace" : 0,
-			"id" : "ChemCalc_autogen::@6890427a1f51a3e7e1df"
+			"id" : "ChemCalc_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
 		},
 		{
-			"id" : "ChemCalc_autogen_timestamp_deps::@6890427a1f51a3e7e1df"
+			"backtrace" : 0,
+			"id" : "ChemCalc_autogen::@6890427a1f51a3e7e1df"
 		}
 	],
 	"id" : "ChemCalc::@6890427a1f51a3e7e1df",

@@ -13,7 +13,7 @@ int main(int argc, char *argv[])
     MainWindow w;
     w.hideMoreParams();
     w.show();
-
+/*
     SolverContext solver_ctx;
 
 //    // solver_ctx.data = *w.ctx;
@@ -26,9 +26,9 @@ int main(int argc, char *argv[])
     solver_ctx.data[2] = 1;
 
     // Smart pointer to avoid mem leak;
-    auto solver = std::make_shared<SolverC>(SolverC::Make(w.type, solver_ctx));
-
-
+    //std::shared_ptr<SolverC> solver;
+    //solver.reset(SolverC::Make(w.type, solver_ctx));
+*/
 
     return a.exec();
 }
