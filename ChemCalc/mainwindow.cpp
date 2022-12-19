@@ -2,7 +2,7 @@
 #include <iostream>
 #include "mainwindow.h"
 #include "./ui_mainwindow.h"
-#include "ChemLib/inc/ChemLib.hpp"
+#include "ChemLib.hpp"
 
 MainWindow::MainWindow(QWidget *parent)
     : QMainWindow(parent)

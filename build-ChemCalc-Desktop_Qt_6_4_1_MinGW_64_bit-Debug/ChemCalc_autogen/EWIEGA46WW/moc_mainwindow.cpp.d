@@ -335,8 +335,8 @@ C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_Min
   C:/Users/dsash/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/vadefs.h \
   C:/Users/dsash/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Users/dsash/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
-  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/ChemLib.hpp \
-  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/PressureSolver.hpp \
-  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/SolverC.hpp \
-  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/TemperatureSolver.hpp \
-  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/VolumeSolver.hpp
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/PressureSolver.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/SolverC.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/TemperatureSolver.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/VolumeSolver.hpp

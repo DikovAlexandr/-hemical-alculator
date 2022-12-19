@@ -23,6 +23,9 @@ CHEMLIB_IS_TOP_LEVEL:STATIC=OFF
 //Value Computed by CMake
 CHEMLIB_SOURCE_DIR:STATIC=C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib
 
+//Path to a library.
+CHEM_LIB:FILEPATH=C:/Users/dsash/Repository/ChemicalCalculator/ChemLib/cmake-build-debug/libChemLib.dll.a
+
 //Path to a program.
 CMAKE_ADDR2LINE:FILEPATH=C:/Users/dsash/Qt/Tools/mingw1120_64/bin/addr2line.exe
 
@@ -529,7 +532,7 @@ CMAKE_MODULE_LINKER_FLAGS_RELWITHDEBINFO-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_NM
 CMAKE_NM-ADVANCED:INTERNAL=1
 //number of local generators
-CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=4
+CMAKE_NUMBER_OF_MAKEFILES:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJCOPY
 CMAKE_OBJCOPY-ADVANCED:INTERNAL=1
 //ADVANCED property for variable: CMAKE_OBJDUMP

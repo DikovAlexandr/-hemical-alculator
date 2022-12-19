@@ -1,0 +1,147 @@
+{
+	"BUILD_DIR" : "C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ChemLib/ChemLib_autogen",
+	"CMAKE_BINARY_DIR" : "C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug",
+	"CMAKE_CURRENT_BINARY_DIR" : "C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ChemLib",
+	"CMAKE_CURRENT_SOURCE_DIR" : "C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib",
+	"CMAKE_EXECUTABLE" : "C:/Users/dsash/Qt/Tools/CMake_64/bin/cmake.exe",
+	"CMAKE_LIST_FILES" : 
+	[
+		"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/CMakeLists.txt",
+		"C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/3.24.2/CMakeCCompiler.cmake",
+		"C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCInformation.cmake",
+		"C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake",
+		"C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake",
+		"C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GNU.cmake",
+		"C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake",
+		"C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake",
+		"C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake",
+		"C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake",
+		"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/Version.hpp.in"
+	],
+	"CMAKE_SOURCE_DIR" : "C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc",
+	"DEP_FILE" : "C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ChemLib/ChemLib_autogen/deps",
+	"DEP_FILE_RULE_NAME" : "ChemLib_autogen/timestamp",
+	"HEADERS" : 
+	[
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/ChemLib.hpp",
+			"MU",
+			"DIG64O274K/moc_ChemLib.cpp",
+			null
+		],
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/PressureSolver.hpp",
+			"MU",
+			"DIG64O274K/moc_PressureSolver.cpp",
+			null
+		],
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/SolverC.hpp",
+			"MU",
+			"DIG64O274K/moc_SolverC.cpp",
+			null
+		],
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/TemperatureSolver.hpp",
+			"MU",
+			"DIG64O274K/moc_TemperatureSolver.cpp",
+			null
+		],
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/Version.hpp",
+			"MU",
+			"DIG64O274K/moc_Version.cpp",
+			null
+		],
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/Version.hpp.in",
+			"MU",
+			"DIG64O274K/moc_Version.hpp.cpp",
+			null
+		],
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/VolumeSolver.hpp",
+			"MU",
+			"DIG64O274K/moc_VolumeSolver.cpp",
+			null
+		]
+	],
+	"HEADER_EXTENSIONS" : [ "h", "hh", "h++", "hm", "hpp", "hxx", "in", "txx" ],
+	"INCLUDE_DIR" : "C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ChemLib/ChemLib_autogen/include",
+	"MOC_COMPILATION_FILE" : "C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ChemLib/ChemLib_autogen/mocs_compilation.cpp",
+	"MOC_DEFINITIONS" : [ "ChemLib_EXPORTS" ],
+	"MOC_DEPEND_FILTERS" : 
+	[
+		[
+			"Q_PLUGIN_METADATA",
+			"[\n][ \t]*Q_PLUGIN_METADATA[ \t]*\\([^\\)]*FILE[ \t]*\"([^\"]+)\""
+		]
+	],
+	"MOC_INCLUDES" : 
+	[
+		"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc",
+		"C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++",
+		"C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/x86_64-w64-mingw32",
+		"C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include/c++/backward",
+		"C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include",
+		"C:/Users/dsash/Qt/Tools/mingw1120_64/lib/gcc/x86_64-w64-mingw32/11.2.0/include-fixed",
+		"C:/Users/dsash/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include"
+	],
+	"MOC_MACRO_NAMES" : 
+	[
+		"Q_OBJECT",
+		"Q_GADGET",
+		"Q_GADGET_EXPORT",
+		"Q_NAMESPACE",
+		"Q_NAMESPACE_EXPORT"
+	],
+	"MOC_OPTIONS" : [],
+	"MOC_PATH_PREFIX" : false,
+	"MOC_PREDEFS_CMD" : 
+	[
+		"C:/Users/dsash/Qt/Tools/mingw1120_64/bin/g++.exe",
+		"-dM",
+		"-E",
+		"-c",
+		"C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCXXCompilerABI.cpp"
+	],
+	"MOC_PREDEFS_FILE" : "C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ChemLib/ChemLib_autogen/moc_predefs.h",
+	"MOC_RELAXED_MODE" : false,
+	"MOC_SKIP" : [],
+	"MULTI_CONFIG" : false,
+	"PARALLEL" : 6,
+	"PARSE_CACHE_FILE" : "C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ChemLib/CMakeFiles/ChemLib_autogen.dir/ParseCache.txt",
+	"QT_MOC_EXECUTABLE" : "C:/Users/dsash/Qt/6.4.1/mingw_64/./bin/moc.exe",
+	"QT_UIC_EXECUTABLE" : "C:/Users/dsash/Qt/6.4.1/mingw_64/./bin/uic.exe",
+	"QT_VERSION_MAJOR" : 6,
+	"QT_VERSION_MINOR" : 4,
+	"SETTINGS_FILE" : "C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/ChemLib/CMakeFiles/ChemLib_autogen.dir/AutogenUsed.txt",
+	"SOURCES" : 
+	[
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/src/PressureSolver.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/src/SolverC.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/src/TemperatureSolver.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/src/VolumeSolver.cpp",
+			"MU",
+			null
+		]
+	],
+	"UIC_OPTIONS" : [],
+	"UIC_SEARCH_PATHS" : [],
+	"UIC_SKIP" : [],
+	"UIC_UI_FILES" : [],
+	"VERBOSITY" : 0
+}

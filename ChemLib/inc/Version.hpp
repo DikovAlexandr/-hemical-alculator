@@ -1,0 +1,2 @@
+#define TC_CORE_VERSION_MAJOR 
+#define TC_CORE_VERSION_MINOR 

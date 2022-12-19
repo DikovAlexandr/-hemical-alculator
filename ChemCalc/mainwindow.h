@@ -2,7 +2,7 @@
 
 #include <QMainWindow>
 #include <vector>
-#include "ChemLib/inc/ChemLib.hpp"
+#include "ChemLib.hpp"
 
 QT_BEGIN_NAMESPACE
 namespace Ui { class MainWindow; }

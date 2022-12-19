@@ -253,6 +253,36 @@
 	"HEADERS" : 
 	[
 		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib.hpp",
+			"MU",
+			"EWIEGA46WW/moc_ChemLib.cpp",
+			null
+		],
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/PressureSolver.hpp",
+			"MU",
+			"EWIEGA46WW/moc_PressureSolver.cpp",
+			null
+		],
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/SolverC.hpp",
+			"MU",
+			"EWIEGA46WW/moc_SolverC.cpp",
+			null
+		],
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/TemperatureSolver.hpp",
+			"MU",
+			"EWIEGA46WW/moc_TemperatureSolver.cpp",
+			null
+		],
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/VolumeSolver.hpp",
+			"MU",
+			"EWIEGA46WW/moc_VolumeSolver.cpp",
+			null
+		],
+		[
 			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/mainwindow.h",
 			"MU",
 			"EWIEGA46WW/moc_mainwindow.cpp",
@@ -329,6 +359,26 @@
 	"SETTINGS_FILE" : "C:/Users/dsash/Repository/ChemicalCalculator/build-ChemCalc-Desktop_Qt_6_4_1_MinGW_64_bit-Debug/CMakeFiles/ChemCalc_autogen.dir/AutogenUsed.txt",
 	"SOURCES" : 
 	[
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/PressureSolver.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/SolverC.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/TemperatureSolver.cpp",
+			"MU",
+			null
+		],
+		[
+			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/VolumeSolver.cpp",
+			"MU",
+			null
+		],
 		[
 			"C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/main.cpp",
 			"MU",

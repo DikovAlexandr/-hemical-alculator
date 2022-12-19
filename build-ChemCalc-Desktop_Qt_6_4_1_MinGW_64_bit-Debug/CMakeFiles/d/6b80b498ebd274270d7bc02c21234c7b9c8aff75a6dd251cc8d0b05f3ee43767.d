@@ -1,0 +1,23 @@
+ChemLib/ChemLib_autogen/timestamp: \
+  C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCInformation.cmake \
+  C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeCommonLanguageInclude.cmake \
+  C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/CMakeLanguageInformation.cmake \
+  C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GNU-C.cmake \
+  C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Compiler/GNU.cmake \
+  C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU-C-ABI.cmake \
+  C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU-C.cmake \
+  C:/Users/dsash/Qt/Tools/CMake_64/share/cmake-3.24/Modules/Platform/Windows-GNU.cmake \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/CMakeLists.txt \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/ChemLib.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/PressureSolver.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/SolverC.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/TemperatureSolver.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/Version.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/Version.hpp.in \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/VolumeSolver.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/src/PressureSolver.cpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/src/SolverC.cpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/src/TemperatureSolver.cpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/src/VolumeSolver.cpp \
+  CMakeFiles/3.24.2/CMakeCCompiler.cmake \
+  C:/Users/dsash/Qt/Tools/CMake_64/bin/cmake.exe

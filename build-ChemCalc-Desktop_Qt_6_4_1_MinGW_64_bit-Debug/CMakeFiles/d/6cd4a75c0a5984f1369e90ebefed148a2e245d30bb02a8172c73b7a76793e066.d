@@ -499,11 +499,15 @@ ChemCalc_autogen/timestamp: \
   C:/Users/dsash/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wchar.h \
   C:/Users/dsash/Qt/Tools/mingw1120_64/x86_64-w64-mingw32/include/wctype.h \
   C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/CMakeLists.txt \
-  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/ChemLib.hpp \
-  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/PressureSolver.hpp \
-  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/SolverC.hpp \
-  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/TemperatureSolver.hpp \
-  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib/inc/VolumeSolver.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/ChemLib.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/PressureSolver.cpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/PressureSolver.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/SolverC.cpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/SolverC.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/TemperatureSolver.cpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/TemperatureSolver.hpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/VolumeSolver.cpp \
+  C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/VolumeSolver.hpp \
   C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/main.cpp \
   C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/mainwindow.cpp \
   C:/Users/dsash/Repository/ChemicalCalculator/ChemCalc/mainwindow.h \
