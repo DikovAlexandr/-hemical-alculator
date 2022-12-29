@@ -11,7 +11,12 @@ enum SolverType {
 
 struct SolverContext {
     // params;
-    std::vector<double> data;
+    double volume;
+    double pressure;
+    double temperature;
+    double mu;
+    double a;
+    double b;
 };
 
 class SolverC {

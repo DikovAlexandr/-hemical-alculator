@@ -23,7 +23,7 @@ public:
 
     SolverType type;
 
-    std::vector<double> ctx{5};
+    SolverContext ctx;
 
 private slots:
     void on_problemSt_activated(int index);

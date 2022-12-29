@@ -50,6 +50,7 @@ public:
     QLineEdit *bParam;
     QLabel *VValue2;
     QLabel *VValue1;
+    QLineEdit *outPut;
     QMenuBar *menubar;
     QMenu *menu;
     QStatusBar *statusbar;
@@ -64,12 +65,13 @@ public:
         inputParam1 = new QLineEdit(centralwidget);
         inputParam1->setObjectName("inputParam1");
         inputParam1->setGeometry(QRect(100, 310, 141, 41));
-        pValue = new QLabel(centralwidget);
-        pValue->setObjectName("pValue");
-        pValue->setGeometry(QRect(110, 280, 151, 20));
         QFont font;
         font.setFamilies({QString::fromUtf8("Calibri")});
         font.setPointSize(14);
+        inputParam1->setFont(font);
+        pValue = new QLabel(centralwidget);
+        pValue->setObjectName("pValue");
+        pValue->setGeometry(QRect(110, 280, 151, 20));
         pValue->setFont(font);
         TValue = new QLabel(centralwidget);
         TValue->setObjectName("TValue");
@@ -78,6 +80,7 @@ public:
         inputParam2 = new QLineEdit(centralwidget);
         inputParam2->setObjectName("inputParam2");
         inputParam2->setGeometry(QRect(260, 310, 141, 41));
+        inputParam2->setFont(font);
         mu = new QLabel(centralwidget);
         mu->setObjectName("mu");
         mu->setGeometry(QRect(440, 280, 241, 20));
@@ -85,12 +88,14 @@ public:
         inputMu = new QLineEdit(centralwidget);
         inputMu->setObjectName("inputMu");
         inputMu->setGeometry(QRect(440, 310, 231, 41));
+        inputMu->setFont(font);
         start = new QPushButton(centralwidget);
         start->setObjectName("start");
-        start->setGeometry(QRect(700, 350, 83, 29));
+        start->setGeometry(QRect(692, 310, 91, 41));
+        start->setFont(font);
         formWidget = new QWidget(centralwidget);
         formWidget->setObjectName("formWidget");
-        formWidget->setGeometry(QRect(50, 20, 481, 209));
+        formWidget->setGeometry(QRect(50, 20, 511, 241));
         formLayout = new QFormLayout(formWidget);
         formLayout->setObjectName("formLayout");
         selectProblem = new QLabel(formWidget);
@@ -104,6 +109,7 @@ public:
         problemSt->addItem(QString());
         problemSt->addItem(QString());
         problemSt->setObjectName("problemSt");
+        problemSt->setFont(font);
 
         formLayout->setWidget(1, QFormLayout::LabelRole, problemSt);
 
@@ -118,6 +124,7 @@ public:
         equationSt->addItem(QString());
         equationSt->addItem(QString());
         equationSt->setObjectName("equationSt");
+        equationSt->setFont(font);
 
         formLayout->setWidget(3, QFormLayout::LabelRole, equationSt);
 
@@ -127,21 +134,24 @@ public:
         moreParams->setObjectName("moreParams");
         label = new QLabel(paramsWidget);
         label->setObjectName("label");
+        label->setFont(font);
 
         moreParams->addWidget(label);
 
         aParam = new QLineEdit(paramsWidget);
         aParam->setObjectName("aParam");
+        aParam->setFont(font);
 
         moreParams->addWidget(aParam);
 
         bParam = new QLineEdit(paramsWidget);
         bParam->setObjectName("bParam");
+        bParam->setFont(font);
 
         moreParams->addWidget(bParam);
 
 
-        formLayout->setWidget(4, QFormLayout::LabelRole, paramsWidget);
+        formLayout->setWidget(4, QFormLayout::SpanningRole, paramsWidget);
 
         VValue2 = new QLabel(centralwidget);
         VValue2->setObjectName("VValue2");
@@ -151,10 +161,14 @@ public:
         VValue1->setObjectName("VValue1");
         VValue1->setGeometry(QRect(100, 280, 151, 20));
         VValue1->setFont(font);
+        outPut = new QLineEdit(centralwidget);
+        outPut->setObjectName("outPut");
+        outPut->setGeometry(QRect(300, 370, 191, 41));
+        outPut->setFont(font);
         MainWindow->setCentralWidget(centralwidget);
         menubar = new QMenuBar(MainWindow);
         menubar->setObjectName("menubar");
-        menubar->setGeometry(QRect(0, 0, 800, 25));
+        menubar->setGeometry(QRect(0, 0, 800, 31));
         menu = new QMenu(menubar);
         menu->setObjectName("menu");
         MainWindow->setMenuBar(menubar);

@@ -23,6 +23,12 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
    </widget>
    <widget class="QLabel" name="pValue">
     <property name="geometry">
@@ -71,6 +77,12 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
    </widget>
    <widget class="QLabel" name="mu">
     <property name="geometry">
@@ -100,15 +112,27 @@
       <height>41</height>
      </rect>
     </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
    </widget>
    <widget class="QPushButton" name="start">
     <property name="geometry">
      <rect>
-      <x>700</x>
-      <y>350</y>
-      <width>83</width>
-      <height>29</height>
+      <x>692</x>
+      <y>310</y>
+      <width>91</width>
+      <height>41</height>
      </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>14</pointsize>
+     </font>
     </property>
     <property name="text">
      <string>Start</string>
@@ -119,8 +143,8 @@
      <rect>
       <x>50</x>
       <y>20</y>
-      <width>481</width>
-      <height>209</height>
+      <width>511</width>
+      <height>241</height>
      </rect>
     </property>
     <layout class="QFormLayout" name="formLayout">
@@ -139,6 +163,12 @@
      </item>
      <item row="1" column="0">
       <widget class="QComboBox" name="problemSt">
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
        <item>
         <property name="text">
          <string>Известны p и T, найти V</string>
@@ -171,6 +201,12 @@
      </item>
      <item row="3" column="0">
       <widget class="QComboBox" name="equationSt">
+       <property name="font">
+        <font>
+         <family>Calibri</family>
+         <pointsize>14</pointsize>
+        </font>
+       </property>
        <item>
         <property name="text">
          <string>Идеальный газ</string>
@@ -188,21 +224,41 @@
        </item>
       </widget>
      </item>
-     <item row="4" column="0">
+     <item row="4" column="0" colspan="2">
       <widget class="QWidget" name="paramsWidget" native="true">
        <layout class="QHBoxLayout" name="moreParams">
         <item>
          <widget class="QLabel" name="label">
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
           <property name="text">
            <string>Введите параметры a и b</string>
           </property>
          </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="aParam"/>
+         <widget class="QLineEdit" name="aParam">
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+         </widget>
         </item>
         <item>
-         <widget class="QLineEdit" name="bParam"/>
+         <widget class="QLineEdit" name="bParam">
+          <property name="font">
+           <font>
+            <family>Calibri</family>
+            <pointsize>14</pointsize>
+           </font>
+          </property>
+         </widget>
         </item>
        </layout>
       </widget>
@@ -247,6 +303,22 @@
      <string>Величина V, в м^3</string>
     </property>
    </widget>
+   <widget class="QLineEdit" name="outPut">
+    <property name="geometry">
+     <rect>
+      <x>300</x>
+      <y>370</y>
+      <width>191</width>
+      <height>41</height>
+     </rect>
+    </property>
+    <property name="font">
+     <font>
+      <family>Calibri</family>
+      <pointsize>14</pointsize>
+     </font>
+    </property>
+   </widget>
   </widget>
   <widget class="QMenuBar" name="menubar">
    <property name="geometry">
@@ -254,7 +326,7 @@
      <x>0</x>
      <y>0</y>
      <width>800</width>
-     <height>25</height>
+     <height>31</height>
     </rect>
    </property>
    <widget class="QMenu" name="menu">
